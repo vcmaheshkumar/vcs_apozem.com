@@ -63,6 +63,10 @@ a:hover, a:active {
 
 @media (min-width: 991x) 
 {
+	header
+	{
+		padding: 0 20px
+	}
 	.menu-Toggle
 	{
         	display: block;
@@ -72,6 +76,7 @@ a:hover, a:active {
 		position: absolute;
 		width: 100%;
 		height: 100%;
+		top: 50px;
 	}
 }
 
