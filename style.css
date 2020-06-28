@@ -24,6 +24,8 @@ body {
 	display: none
 }
 
+
+
 img {
     vertical-align: baseline;
 }
@@ -59,10 +61,18 @@ a:hover, a:active {
     display: flex !important;
 }
 
-@media screen and (min-width: 992px) {
-    .flex-lg {
-        display: flex !important;
-    }
+@media (min-width: 991x) 
+{
+	.menu-Toggle
+	{
+        	display: block;
+	}
+	header nav
+	{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
 }
 
 /*--------------------------------------------------------------
