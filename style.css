@@ -14,18 +14,6 @@ body {
 	user-select: none;
 }
 
-.menu-toggle
-{
-	color: #fff;
-	float: right;
-	line-hight: 50px;
-	font-size: 24px;
-	cursor: pointer;
-	display: none
-}
-
-
-
 img {
     vertical-align: baseline;
 }
@@ -61,23 +49,10 @@ a:hover, a:active {
     display: flex !important;
 }
 
-@media (max-width: 991x) 
-{
-	header
-	{
-		padding: 0 20px
-	}
-	.menu-toggle
-	{
-        	display: block;
-	}
-	header nav
-	{
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 50px;
-	}
+@media screen and (min-width: 992px) {
+    .flex-lg {
+        display: flex !important;
+    }
 }
 
 /*--------------------------------------------------------------
