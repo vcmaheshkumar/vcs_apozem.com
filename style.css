@@ -104,6 +104,10 @@ a:hover, a:active {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#581479', endColorstr='#ab00e5',GradientType=1 ); /* ie6-9 */
     color: #fff;
 }
+@viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
 
 /*--------------------------------------------------------------
 # Header
