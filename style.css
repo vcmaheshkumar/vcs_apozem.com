@@ -18,6 +18,32 @@ img {
     vertical-align: baseline;
 }
 
+.menu-toggle
+{
+	color: #ffff;
+	float: right;
+	line-height: 50px;
+	font-size: 24px;
+	cursor: pointer;
+	display: none;
+}
+
+@media (max-width: 991px)
+{
+	header
+	{
+		padding: 0 20px;
+	}
+	.menu-toggle
+	{
+		display: block;
+	}
+	header nav
+	{
+		display: none;
+	}
+}
+
 /*--------------------------------------------------------------
 # Links
 --------------------------------------------------------------*/
