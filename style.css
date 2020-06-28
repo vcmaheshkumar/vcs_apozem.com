@@ -21,27 +21,11 @@ img {
 .menu-toggle
 {
 	color: #ffff;
-	float: right;
+	float: left;
 	line-height: 50px;
 	font-size: 24px;
 	cursor: pointer;
 	display: none;
-}
-
-@media (max-width: 991px)
-{
-	header
-	{
-		padding: 0 20px;
-	}
-	.menu-toggle
-	{
-		display: block;
-	}
-	header nav
-	{
-		display: none;
-	}
 }
 
 /*--------------------------------------------------------------
