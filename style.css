@@ -14,7 +14,7 @@ body {
 	user-select: none;
 }
 
-.menu-Toggle
+.menu-toggle
 {
 	color: #fff;
 	float: right;
@@ -61,13 +61,13 @@ a:hover, a:active {
     display: flex !important;
 }
 
-@media (min-width: 991x) 
+@media (max-width: 991x) 
 {
 	header
 	{
 		padding: 0 20px
 	}
-	.menu-Toggle
+	.menu-toggle
 	{
         	display: block;
 	}
